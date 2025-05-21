@@ -1,0 +1,6 @@
+@ibikeNet_HostAddress = http://localhost:5139
+
+GET {{ibikeNet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

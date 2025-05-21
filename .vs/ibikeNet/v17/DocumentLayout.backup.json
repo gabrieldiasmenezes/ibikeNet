@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Downloads\\ibikeNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\controllers\\patiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\controllers\\patiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\model\\monitoracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\model\\monitoracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\model\\patio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\model\\patio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\dto\\patiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\dto\\patiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\services\\patioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\services\\patioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\model\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\model\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\data\\idesigntimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\data\\idesigntimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\model\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\model\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\components\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\components\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\components\\statuspatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\components\\statuspatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\components\\statusmoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\components\\statusmoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\components\\statusadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\components\\statusadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|c:\\users\\dell\\downloads\\ibikenet\\ibikenet\\migrations\\20250521134112_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2F9296-6A35-4CEB-8BF4-DE662C05D46C}|ibikeNet\\ibikeNet.csproj|solutionrelative:ibikenet\\migrations\\20250521134112_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\dto\\PatioDTO.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\dto\\PatioDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\dto\\PatioDTO.cs",
+              "RelativeToolTip": "ibikeNet\\dto\\PatioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T18:06:22.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatioService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Services\\PatioService.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Services\\PatioService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Services\\PatioService.cs",
+              "RelativeToolTip": "ibikeNet\\Services\\PatioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T18:05:25.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatioController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Controllers\\PatioController.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Controllers\\PatioController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Controllers\\PatioController.cs",
+              "RelativeToolTip": "ibikeNet\\Controllers\\PatioController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:48:10.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Controllers\\AdministradorController.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Controllers\\AdministradorController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Controllers\\AdministradorController.cs",
+              "RelativeToolTip": "ibikeNet\\Controllers\\AdministradorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:43:38.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monitoracao.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Monitoracao.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Model\\Monitoracao.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Monitoracao.cs",
+              "RelativeToolTip": "ibikeNet\\Model\\Monitoracao.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:27:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patio.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Patio.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Model\\Patio.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Patio.cs",
+              "RelativeToolTip": "ibikeNet\\Model\\Patio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:27:09.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\dto\\AdminDto.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\dto\\AdminDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\dto\\AdminDto.cs",
+              "RelativeToolTip": "ibikeNet\\dto\\AdminDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:58:45.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Moto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Moto.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Model\\Moto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Moto.cs",
+              "RelativeToolTip": "ibikeNet\\Model\\Moto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:26:59.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250521134112_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Migrations\\20250521134112_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Migrations\\20250521134112_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Migrations\\20250521134112_InitialCreate.cs",
+              "RelativeToolTip": "ibikeNet\\Migrations\\20250521134112_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:41:12.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Data\\IDesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Data\\IDesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Data\\IDesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "ibikeNet\\Data\\IDesignTimeDbContextFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:38:56.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Program.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Program.cs",
+              "RelativeToolTip": "ibikeNet\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:28:50.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\appsettings.json",
+              "RelativeDocumentMoniker": "ibikeNet\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\appsettings.json",
+              "RelativeToolTip": "ibikeNet\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T13:12:02.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ibikeNet\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:11:02.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Administrador.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\Model\\Administrador.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\Model\\Administrador.cs",
+              "RelativeToolTip": "ibikeNet\\Model\\Administrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:04:45.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoEvento.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\TipoEvento.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\components\\TipoEvento.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\TipoEvento.cs",
+              "RelativeToolTip": "ibikeNet\\components\\TipoEvento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:26:34.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatusPatio.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusPatio.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\components\\StatusPatio.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusPatio.cs",
+              "RelativeToolTip": "ibikeNet\\components\\StatusPatio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:25:54.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StatusMoto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusMoto.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\components\\StatusMoto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusMoto.cs",
+              "RelativeToolTip": "ibikeNet\\components\\StatusMoto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:25:10.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatusAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusAdministrador.cs",
+              "RelativeDocumentMoniker": "ibikeNet\\components\\StatusAdministrador.cs",
+              "ToolTip": "C:\\Users\\Dell\\Downloads\\ibikeNet\\ibikeNet\\components\\StatusAdministrador.cs",
+              "RelativeToolTip": "ibikeNet\\components\\StatusAdministrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:05:17.771Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

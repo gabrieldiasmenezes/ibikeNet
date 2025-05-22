@@ -1,37 +1,40 @@
-﻿using ibikeNet.components;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using ibikeNet.components;
 
 namespace ibikeNet.Model
 {
     [Table("administrador")]
-    public class Administrador
+    public class Administrador // : IdentityUser ?
     {
         [Key]
+        [Column("Cpf", TypeName = "char(11)")]
         [StringLength(11)]
-        public string Cpf { get; set; } = string.Empty;
+        public string Cpf { get; set; }
 
-        [Required]
         [Column("nm_adm")]
-        public string Nome { get; set; } = string.Empty;
+        [Required]
+        public string Nome { get; set; }
 
         [Required]
         [EmailAddress]
-        [StringLength(100)]
-        public string Email { get; set; } = string.Empty;
+        [Column(TypeName = "varchar(255)")]
+        public string Email { get; set; }
 
         [Required]
         [MinLength(5)]
-        [StringLength(100)]
-        public string Password { get; set; } = string.Empty;
+        [Column("Password", TypeName = "varchar(100)")]
+        public string Password { get; set; }
 
         [Required]
+        [Column("Status")]
         public StatusAdministrador Status { get; set; }
 
-        // Relação muitos-para-um: muitos admins para um pátio
-        [Required]
-        public int PatioId { get; set; }
+        // Relacionamento com Patio
+        public long PatioId { get; set; }
         public Patio? Patio { get; set; }
     }
+
+
 }

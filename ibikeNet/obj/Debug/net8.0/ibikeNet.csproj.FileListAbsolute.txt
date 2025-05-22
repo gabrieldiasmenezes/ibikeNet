@@ -290,3 +290,4 @@ C:\Users\Dell\Downloads\ibikeNet\ibikeNet\obj\Debug\net8.0\staticwebassets.pack.
 C:\Users\Dell\Downloads\ibikeNet\ibikeNet\obj\Debug\net8.0\ibikeNet.csproj.Up2Date
 C:\Users\Dell\Downloads\ibikeNet\ibikeNet\obj\Debug\net8.0\ibikeNet.genruntimeconfig.cache
 C:\Users\Dell\Downloads\ibikeNet\ibikeNet\obj\Debug\net8.0\ref\ibikeNet.dll
+C:\Users\Dell\Downloads\ibikeNet\ibikeNet\obj\Debug\net8.0\ibikeNet.sourcelink.json

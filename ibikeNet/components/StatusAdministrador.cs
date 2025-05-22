@@ -1,4 +1,4 @@
-﻿namespace ibikeNet.components
+namespace ibikeNet.components
 {
     public enum StatusAdministrador
     {

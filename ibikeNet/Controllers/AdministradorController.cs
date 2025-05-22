@@ -1,80 +1,54 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ibikeNet.Model;
-using ibikeNet.Model.DTO;
-
-[ApiController]
-[Route("administrador")]
-public class AdministradorController : ControllerBase
+using Microsoft.AspNetCore.Mvc;
+using ibikeNet.dto;
+using ibikeNet.Services;
+namespace ibikeNet.Controllers
 {
-    private readonly AdministradorService _service;
-
-    public AdministradorController(AdministradorService service)
+    [ApiController]
+    [Route("/administrador")]
+    public class AdministradorController : ControllerBase
     {
-        _service = service;
-    }
+        private readonly IAdministradorService _service;
 
-    [HttpGet]
-    public async Task<ActionResult<IEnumerable<Administrador>>> GetAll()
-    {
-        var admins = await _service.GetAllAsync();
-        return Ok(admins);
-    }
-
-    [HttpGet("{cpf}")]
-    public async Task<ActionResult<Administrador>> GetByCpf(string cpf)
-    {
-        var admin = await _service.GetByCpfAsync(cpf);
-        if (admin == null)
-            return NotFound("Administrador não encontrado.");
-
-        return Ok(admin);
-    }
-
-    [HttpPost]
-    public async Task<ActionResult> Create([FromBody] AdminDto dto)
-    {
-        if (await _service.ExistsByCpfAsync(dto.Cpf))
-            return Conflict("Já existe um administrador com este CPF.");
-
-        var admin = new Administrador
+        public AdministradorController(IAdministradorService service)
         {
-            Cpf = dto.Cpf,
-            Nome = dto.Nome,
-            Email = dto.Email,
-            Password = dto.Password, // Se quiser aplicar hash, faça aqui
-            PatioId = dto.PatioId,
-            Status = dto.Status
-        };
+            _service = service;
+        }
 
-        await _service.CreateAsync(admin);
-        return CreatedAtAction(nameof(GetByCpf), new { cpf = admin.Cpf }, admin);
-    }
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<AdministradorResultDto>>> GetAll()
+        {
+            var result = await _service.GetAllAsync();
+            return Ok(result);
+        }
 
-    [HttpPut("{cpf}")]
-    public async Task<ActionResult> Update(string cpf, [FromBody] AdminDto dto)
-    {
-        var admin = await _service.GetByCpfAsync(cpf);
-        if (admin == null)
-            return NotFound("Administrador não encontrado.");
+        [HttpGet("{cpf}")]
+        public async Task<ActionResult<AdministradorResultDto>> GetById(string cpf)
+        {
+            var result = await _service.GetByIdAsync(cpf);
+            if (result == null) return NotFound();
 
-        admin.Nome = dto.Nome;
-        admin.Email = dto.Email;
-        admin.Password = dto.Password; // Novamente, aplicar hash se quiser
-        admin.PatioId = dto.PatioId;
-        admin.Status = dto.Status;
+            return Ok(result);
+        }
 
-        await _service.UpdateAsync(admin);
-        return Ok(admin);
-    }
+        [HttpPost]
+        public async Task<ActionResult<AdministradorResultDto>> Create(AdministradorCreateDto dto)
+        {
+            var result = await _service.CreateAsync(dto);
+            return CreatedAtAction(nameof(GetById), new { cpf = result.Cpf }, result);
+        }
 
-    [HttpDelete("{cpf}")]
-    public async Task<ActionResult> Delete(string cpf)
-    {
-        var admin = await _service.GetByCpfAsync(cpf);
-        if (admin == null)
-            return NotFound("Administrador não encontrado.");
+        [HttpPut("{cpf}")]
+        public async Task<IActionResult> Update(string cpf, AdministradorUpdateDto dto)
+        {
+            await _service.UpdateAsync(cpf, dto);
+            return NoContent();
+        }
 
-        await _service.DeleteAsync(admin);
-        return NoContent();
+        [HttpDelete("{cpf}")]
+        public async Task<IActionResult> Delete(string cpf)
+        {
+            await _service.DeleteAsync(cpf);
+            return NoContent();
+        }
     }
 }

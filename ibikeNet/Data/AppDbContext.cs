@@ -16,10 +16,6 @@ namespace ibikeNet.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Administrador>()
-                .Property(a => a.Status)
-                .HasConversion<int>();
         }
 
     }
